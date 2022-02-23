@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="form">
+        <div class="inputs">
+            <label for="">
+                ingrese el nombre del producto:
+            </label>
+
+            <input type="text" id="name" name="name">
+            
+            <br/>
+
+            <label for="">
+                ingrese el precio del producto:
+            </label>
+
+            <input type="number" id="price" name="price">
+
+            <br/>
+
+            <label for="">Ingrese el stock del producto:</label>
+
+            <input type="number" name="stock" id="stock">
+        </div>
+    <br/>
+        <div class="button">
+            <button type="submit">
+                CARGAR
+            </button>
+        </div>
+    </form>
+
+
+    <h1>Productos:</h1>
+    <div class="contenedor-productos">
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!-- do{
+    var comprobacion = prompt("Ingrese un producto o escriba listo para finalizar" );
+    if(comprobacion === "listo"){
+        break;
+    } else {
+    nombreProducto = comprobacion;
+        let precioProducto = prompt("ingresar el precio del producto");
+        let cantidadProducto = prompt("ingresar el stock del producto");
+        arrProductos.push(new Producto(nombreProducto, precioProducto, cantidadProducto));
+    } 
+} while(comprobacion != "listo"); -->
